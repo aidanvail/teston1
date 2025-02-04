@@ -1039,6 +1039,24 @@ p {
     height: 150px;
     object-fit: cover;
     border: 3px solid var(--accent-color);
+}
+
+/* Contact Social Icons */
+.contact-social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.contact-social-icons .social-icon {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.contact-social-icons .social-icon:hover {
+    color: var(--accent-color);
+}
     box-shadow: var(--shadow);
 }
 
@@ -1093,4 +1111,22 @@ p {
     .slogan {
         font-size: var(--font-size-2xl);
     }
+}
+
+/* Social Icons Styles */
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-icon {
+    color: var(--white);
+    font-size: 1.5rem;
+    transition: var(--transition);
+}
+
+.social-icon:hover {
+    color: var(--highlight-color);
+    transform: translateY(-2px);
 }
